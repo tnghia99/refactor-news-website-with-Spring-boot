@@ -1,0 +1,11 @@
+package com.demospringboot.api.output;
+
+import java.util.List;
+
+import com.demospringboot.dto.NewsDTO;
+
+public class NewsOutput {
+	private int page;
+	private int limit;
+	private List<NewsDTO> news = ArrayList<NewsDTO>();
+}

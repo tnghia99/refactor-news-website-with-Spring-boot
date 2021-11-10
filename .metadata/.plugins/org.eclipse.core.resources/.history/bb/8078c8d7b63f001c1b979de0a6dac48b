@@ -1,0 +1,33 @@
+package com.demospringboot.api.output;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demospringboot.dto.NewsDTO;
+
+public class NewsOutput {
+	private int currentPage;
+	private int limit;
+	private List<NewsDTO> news = new ArrayList<>();
+	
+	
+	public int getCurrentPage() {
+		return currentPage;
+	}
+	public void setCurrentPage(int currentPage) {
+		this.currentPage = currentPage;
+	}
+	public int getLimit() {
+		return limit;
+	}
+	public void setLimit(int limit) {
+		this.limit = limit;
+	}
+	public List<NewsDTO> getNews() {
+		return news;
+	}
+	public void setNews(List<NewsDTO> news) {
+		this.news = news;
+	}
+	
+}

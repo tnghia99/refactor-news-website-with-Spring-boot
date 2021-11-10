@@ -1,0 +1,32 @@
+package com.demospringboot.api.output;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demospringboot.dto.NewsDTO;
+
+public class NewsOutput {
+	private int totalPage;
+	private int limit;
+	private List<NewsDTO> news = new ArrayList<>();
+	
+	public int getTotalPage() {
+		return totalPage;
+	}
+	public void setTotalPage(int totalPage) {
+		this.totalPage = totalPage;
+	}
+	public int getLimit() {
+		return limit;
+	}
+	public void setLimit(int limit) {
+		this.limit = limit;
+	}
+	public List<NewsDTO> getNews() {
+		return news;
+	}
+	public void setNews(List<NewsDTO> news) {
+		this.news = news;
+	}
+	
+}

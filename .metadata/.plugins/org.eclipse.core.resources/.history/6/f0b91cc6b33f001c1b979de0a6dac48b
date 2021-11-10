@@ -1,0 +1,5 @@
+package com.demospringboot.api.output;
+
+public class NewsOutput {
+
+}

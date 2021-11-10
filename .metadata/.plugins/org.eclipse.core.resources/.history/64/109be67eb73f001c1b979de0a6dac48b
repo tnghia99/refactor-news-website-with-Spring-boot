@@ -1,0 +1,10 @@
+package com.demospringboot.service;
+
+import com.demospringboot.dto.NewsDTO;
+
+public interface INewsService {
+	NewsDTO save(NewsDTO newsDTO);
+	//NewsDTO update(NewsDTO newsDTO);
+	void delete(long[] ids);
+	NewsDTO findAll();
+}
